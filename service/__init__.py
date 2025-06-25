@@ -41,5 +41,3 @@ except Exception as error:  # pylint: disable=broad-except
 app.logger.info("Service initialized!")
 
 __all__ = ["app", "talisman"]
-
-
